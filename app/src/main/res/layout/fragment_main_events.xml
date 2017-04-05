@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.anbti.anubhuti.MainEventsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/dance_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:background="@drawable/event_dance"
+                android:onClick="OnDanceButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_dance"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+
+            <Button
+                android:id="@+id/sing_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_singing"
+                android:onClick="OnSingButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_sing"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/drama_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_drama"
+                android:onClick="OnDramaButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_drama"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/arts_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_art"
+                android:onClick="OnArtsButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_arts"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/photo_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_photography"
+                android:onClick="OnPhotographyButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_photography"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/quiz_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_quiz"
+                android:onClick="OnQuizButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_quiz"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/literary_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_literary"
+                android:onClick="OnLiteraryButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_literary"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/lan_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_lan"
+                android:onClick="OnLanButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_lan"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+
+            <Button
+                android:id="@+id/informal_button"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/event_informal"
+                android:onClick="OnInformalButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/event_informal"
+                android:textColor="@color/colorGold"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

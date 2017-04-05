@@ -1,0 +1,1375 @@
+<resources>
+    <string name="app_name">Anubhuti</string>
+    <string name="knit">KNIT Sultanpur</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="rules_button_text">Rules</string>
+
+    <string name="Rs">\u20B9</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation Bar Strings-->
+    <string name="home">Home</string>
+    <string name="schedule">Schedule</string>
+    <string name="event">Events</string>
+    <string name="event_registration">Events Reg.</string>
+    <string name="about">About us</string>
+    <string name="sponsor">Sponsors</string>
+    <string name="team">Team</string>
+    <string name="ticket">Tickets</string>
+    <string name="map">Map</string>
+    <string name="contribute">Contribute</string>
+    <string name="login">Log In</string>
+
+    <!-- Events -->
+    <string name="event_dance">Thirak</string>
+    <string name="event_sing">Saptak</string>
+    <string name="event_drama">Concouractus</string>
+    <string name="event_arts">Sanat</string>
+    <string name="event_photography">Chhavi-Srijan</string>
+    <string name="event_quiz">Armageddon</string>
+    <string name="event_literary">Pranninad</string>
+    <string name="event_lan">LAN Gaming</string>
+    <string name="event_informal">Informals</string>
+
+    <string name="event_dance_type">Dancing</string>
+    <string name="event_sing_type">Singing</string>
+    <string name="event_drama_type">Drama</string>
+    <string name="event_arts_type">Fine Arts</string>
+    <string name="event_photography_type">Photography</string>
+    <string name="event_quiz_type">Quiz</string>
+    <string name="event_literary_type">Literary</string>
+    <string name="event_lan_type">LAN Gaming</string>
+    <string name="event_informal_type">Informals</string>
+
+    <string name="register_button">Register</string>
+
+    <!--  Team  -->
+    <string name="call">Call</string>
+    <string name="mail">E-Mail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_anubhuti">Kamla Nehru Institute of Technology, Sultanpur presents its 2017
+        edition of Anubhuti from 17th to 20th February. Anubhuti, the majestic spectacle of KNIT,
+        Sultanpur. The palatial celebration of vibrant colors from our culture. A congenial event
+        with exciting, entertaining and enticing episodes in its clutch.\nIf one were to judge
+        college festivals simply by the nature of how fast they grow, Anubhuti would probably stand
+        unparalleled in Uttar Pradesh. Ever since its inception in 2015, it has gone to become one
+        of the biggest and highly anticipated cult fests in the region.\nSo what makes Anubhuti
+        special? You would ask. What makes it stand out from amongst the thousands that are already
+        there? Is it the wave after wave of participation, coming from each corner and even beyond,
+        all participating into close to 40 events spanning 7 Categories-Dance, Drama, Music,
+        Literary, Quiz, Fine Arts and photography? Or the full force of students brought down to a
+        single location through a variety of stalls, exhibitions and performances. The Special
+        Nights, the pinnacle of the extravaganza, previously having witnessed the likes of Gajendra
+        Verma, Dinesh Raghuvanshi, Mumtaz Naseem, Kirti Kale and The Loons Band.\nThis year,
+        Anubhuti\’17, honoring the \‘Royal\’ theme and tagline of Perfect is Boring, is going to be
+        organized on an even larger scale, with ongoing talks of several international performances,
+        a distinguished platter of exotic celebrities and experts in line to judge the various
+        events. We also promise to come alive this year with a host of informals, exhibitions and
+        stalls, for just about anyone in the fest looking to have the time of their lives.\nSo be
+        the Alexander, or be the Leonidas just be the warrior. Muster up to defend the legacy of
+        your empire. the kingship is on stake, as it\'s going to be ROYAL affair this time. Partake
+        in imperial battle to conquer the throne and establish monumental regime. Come assimilate
+        with us. Relish, win and create memories with us. Click selfie and groove on. Embark the
+        regal warrior for battle of swords.\n\nBe Royal, Be a knight.\n </string>
+
+
+    <!--   Folding cell listview  -->
+    <string name="title_activity_sub_events">SubEventsActivity</string>
+
+    <!-- Countdown Timer -->
+    <string name="content_description">Content Description</string>
+    <string name="days">days</string>
+    <string name="hours">hrs</string>
+    <string name="minutes">mins</string>
+    <string name="seconds">secs</string>
+
+    <!--  ***********    Dance Events Strings ***********  -->
+
+    <string-array name="dance_event_names">
+        <item>About</item>
+        <item>Masquerade</item>
+        <item>Estampie</item>
+        <item>Duo</item>
+        <item>Continuum Dance</item>
+        <item>Carefree</item>
+    </string-array>
+
+    <string-array name="dance_event_type">
+        <item> </item>
+        <item>Group Dance</item>
+        <item>Solo Dance</item>
+        <item>Duet Dance</item>
+        <item>Online Event</item>
+        <item>Informals</item>
+    </string-array>
+
+    <string-array name="dance_event_details">
+        <item>Dance, dance for the fun is easy. The tune is catching and will not stop. Dance, till
+            the stars come down from the rafters. Dance, dance, dance till you drop. Be it
+            bollywood, western, contemporary, jazz, salsa, hip-hop or what not just put on your
+            dancing shoes and hit the floor.
+        </item>
+        <item>\u2022 It is a group dance event. It is a 2 round event.\n
+            \u2022 The group can be formed of minimum 5 members and maximum 20 members.\n
+            \u2022 At least 5 members must be present on the stage at a time.\n\n
+            \u2022 <b>Round 1:</b>\nThe groups have to show their 3 minutes performance for qualifying round.
+            This performance should be the part of their complete performance.\n\n
+            \u2022 <b>Round 2:</b>\nIt is the final round in which the groups have to show their complete
+            performance of 8-12 minutes.\n\n
+            <b>Judging Criteria:</b>\n\nThere will be extra marks for theme based performances, use of props,
+            formations, stunts , coordination and stage utilization.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>\u2022 There will be 3 rounds in this event where participants will show their dance
+            forms individually.\n
+            \u2022 Dance forms can vary from western hip hop to typical freestyle bollywood to folk
+            to classical.\n\n
+            \u2022 <b>Round 1:</b>\nParticipants will have to perform for 1:30-2 minutes.\n
+            \u2022 <b>Round 2:</b>\nThe complete performance of 3-4 minutes of the qualified participants
+            will be judged.\n
+            \u2022 <b>Round 3:</b>\nThis will be a face-off between any two randomly chosen participants with
+            music given on the spot. The music track of the two participants will be mixed
+            accordingly, switching from one participant to another.\n\n
+            <b>Judging Criteria:</b>\n\nThere will be extra marks for theme based performances,
+            use of props, stage utilization, expressions, energy level, costumes. Any kind of
+            fusion will be encouraged.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>\u2022 In this event dance will be performed in pair.\n
+            \u2022 Dance forms can vary from western hip-hop to freestyle bollywood.\n\n
+            \u2022 <b>Round 1:</b>\nIt is the qualifying round. Pairs have to perform for 1:30-2 mins.\n
+            \u2022 <b>Round 2:</b>\nIt is a prop round where each pair will be given a prop. They will be
+            given 24 hours to add a small portion of dance using that prop in their complete
+            performance. The time for the utilization of prop can vary and judging will be done
+            on the basis of best utilization of prop. Total time for the  performance is
+            4-5 minutes.\n\n
+            <b>Judging Criteria:</b>\n\nThere will be extra marks for story, proper utilization of
+            props, compatibility, rhythm, lifts, chemistry, and costumes.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>It is an online event open to all. Anyone who wants to show his/her dance talent can
+            upload his/her video performing on any song for about 1:30-2 min.\n
+            \u2022 The selected contestants have to gather as many people as they can and have to upload
+            another video performing on that same song with their whole group this time.\n\n
+            <b>There will be no registration fee for the winning performer!!!</b>\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>Here participants have to perform on any random song played by the organizing team.
+            The team will pick up any random participant at first, after their performance they have
+            to challenge any other contestant and in the same manner the event will continue.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+    </string-array>
+
+    <string-array name="dance_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="dance_event_date">
+        <item> </item>
+        <item>Feb 17, 2017</item>
+        <item>Feb 17, 2017</item>
+        <item>Feb 17, 2017</item>
+        <item>Feb 17, 2017</item>
+        <item>Feb 17, 2017</item>
+    </string-array>
+
+    <string-array name="dance_event_time">
+        <item> </item>
+        <item>05:10 PM</item>
+        <item>11:10 AM</item>
+        <item>07:11 PM</item>
+        <item>4:15 AM</item>
+        <item>06:15 PM</item>
+    </string-array>
+
+    <string-array name="dance_contact1">
+        <item>Contact name</item>  
+        <item>0123456789</item>  <!-- Contact number-->
+    </string-array>
+
+    <string-array name="dance_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+    <!--  ************* Singing Events Strings **************  -->
+
+    <string-array name="singing_event_names">
+        <item>About</item>
+        <item>Ekal</item>
+        <item>Jugalbandi</item>
+        <item>Atantra</item>
+        <item>Anuved</item>
+    </string-array>
+
+    <string-array name="singing_event_type">
+        <item> </item>
+        <item>Solo Singing</item>
+        <item>Duet</item>
+        <item>Unplugged</item>
+        <item>Band</item>
+    </string-array>
+
+    <string-array name="singing_event_details">
+        <item>There is certainly some magic in human voice which is not there in any other sound.
+            Every human voice has got an unmatchable flavour which makes it unique. So unleash the
+            singer within you.
+        </item>
+        <item>If you can swim in the ocean of melody and mesmerize the  audience with the
+            God-gifted beauty of your voice then yes, this event is for you.\n\n
+            <b>Rounds:</b>\n\n<b>PRELIM</b>\n1. The participants have to sing a song of their choice.\n
+            2. Time limit 3 minutes excluding the sound check.
+            3. The participants can bring the karaoke or can play an accompanying instrument his/her
+            or can take the help of a friend for that or sing without any music if he wishes to.\n
+            4. No backing vocals allowed.\n
+            5. The decisions of the judges will be fine and binding in all cases.\n\n
+            <b>FINALE:</b>\n\n<b>(i)Participants Choice Round:</b>\n1. Sing a song of your choice.\n
+            2. Time limit: 4 minutes (excluding the sound check).\n
+            3. The participants can use the karaoke or bring along an accompanying instrument/friend
+            for playing the instrument.\n
+            4. No backing vocals allowed.\n\n
+            <b>(ii)Judges Choice Round:</b>\n1. You have to sing a song of the judges\’ choice.\n
+            2. No time limit.\n
+            3. The decision of the judges shall be final and binding in all the cases
+        </item>
+
+        <item>Anubhuti  gives you the freedom to use any combination of instruments or vocals or
+            both and captivate the audience leaving them spellbound.\n\n
+            <b>Rules:</b>\n\n<b>PRELIM</b>\n1. The couple has to give a performance of their own choice.\n
+            2. Time limit: 5 minutes (excluding sound check).\n
+            3. If both the members of a couple are vocalists they can bring the karaoke along with them.\n
+            4. If one of the two is an instrumentalist, then they are required to carry the
+            instruments they require. No bar on the number of the instruments played.\n
+            5. No extra accompanists will be allowed.\n
+            6. The short-listed couples will move to the final round where they will be shuffled to
+            form random pairs.\n\n
+            <b>FINALE:</b>\n1. The couple has to give a performance of their own choice.\n
+            2. Time limit: 5 minutes (excluding sound check).\n
+            3. If both the members of a couple are vocalists they can bring the karaoke along with them.\n
+            4. If one of the two is an instrumentalist, then they are required to carry the
+            instruments they require. No bar on the number of the instruments played.\n
+            5. No extra accompanists will be allowed.\n
+            6. The decision of the judges shall be final and binding in all cases.
+        </item>
+
+        <item>Let us take you with us on wings of melody into the sky of music where you can cherish
+            the beautiful music of the musical instruments that will keep you enchanted throughout
+            the event. Rock music, ghazal, qawwali or any raag is welcomed in this event.\n\n
+            <b>Rules:</b>\n\n
+            1. Participants :  Minimum 3 and maximum 5 members team.\n
+            2. There will be only one round in the competition.\n
+            3. Time limit: 10 minutes (excluding sound check).\n
+            4. Language: Hindi, English or fusion.\n
+            5. The participating team has to bring along their instruments.\n
+            6. Rock grunge or growls are not allowed.\n
+            7. The decision of the judges shall be final and binding in all cases.
+        </item>
+
+        <item>(i) Bands will be given 30 minutes- amplifiers off to off. Points will be deducted on
+            exceeding the time limit.\n
+            (ii) At least one song performed must be an original composition.\n
+            (iii) The band members can remould the music and the lyrics of the song they are
+            performing according to their wish.\n
+            (iv) Emphasis will be laid on innovation and the new ideas of the band.\n\n
+            <b>Rules:</b>\n\n
+            1. Band Members: At least 3 people and at maximum 7 people on the stage.\n
+            2. At least 3 instruments are required (different guitars are counted separately).\n
+            3. Judges decision shall be final and binding in all cases.
+        </item>
+    </string-array>
+
+    <string-array name="singing_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="singing_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="singing_event_time">
+        <item> </item>
+        <item>05:10 PM</item>
+        <item>11:10 AM</item>
+        <item>07:11 PM</item>
+        <item>4:15 AM</item>
+    </string-array>
+
+    <string-array name="singing_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="singing_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+    <!--  *********** Drama Event Strings ************* -->
+
+    <string-array name="drama_event_names">
+        <item>About</item>
+        <item>Mono Act</item>
+        <item>Mime</item>
+        <item>Nukkad</item>
+        <item>Spontrous</item>
+        <item>Theatre</item>
+    </string-array>
+
+    <string-array name="drama_event_type">
+        <item> </item>
+        <item>Mono Act</item>
+        <item>Mime</item>
+        <item>Street Play</item>
+        <item>Spontrous</item>
+        <item>Stage Play</item>
+    </string-array>
+
+    <string-array name="drama_event_details">
+        <item>This is a theatre show consisting of mass showing their acting skills. Get geared up
+            to play with pride in your own way to capture the heart beats with your acting skills.
+            Go for glory, now or never.
+        </item>
+        <item>
+            <b>Rules:</b>\n\n
+            1. The Act shall be performed by a single actor on stage.\n
+            2. Act prepared should be within the time limits of 3-10 min.\n
+            3. It can be in English, Hindi or Both.\n
+            4. The Act can be an original script or an adaptation. In each case the abstract should
+            be submitted with the event coordinator before due date.\n
+            5. Any props needed will have to be arranged by the participant himself. The props
+            should not be explosive, flammable, permanent paints or volatile.\n
+            6. No physical interactions with the audience is permitted.\n
+            7. Whole event shall be judged by the Judges panel disclosed just before the event itself.\n
+            8. The judge\'s decision in any factor shall be unchallengeable and final.\n
+            9. Play will be judged on the basis of Acting, presentation, use of props, script,
+            creativity and Overall experience of the audience.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>
+            <b>Rules:</b>\n\n
+            1. Team may consist of 5-15 registered members. Members may or may not be of the same college.\n
+            2. The Mime prepared should be within the time limits of 10-20 min. 3-5 min of which
+            would be acted by the team for Preliminary round.\n
+            3. Director, stage helpers, actors, etc. all are considered a part of the team and must
+            be registered beforehand for event.\n
+            4. Mime can be an original script or an adaptation. In each case the abstract should be
+            submitted with the event coordinator before due date. Based on which the teams shall be
+            shortlisted.\n
+            5. A Team Leader should be appointed and mentioned in the abstract who would be
+            responsible for all communication with the coordinators.\n
+            6. Any props needed will have to be arranged by the team itself. The props should not be
+            explosive, flammable, permanent paints or volatile.\n
+            7. No physical interactions with the audience is permitted.\n
+            8. The mime shall be judged by the Judges panel disclosed just before the event itself.\n
+            9. The judge\'s decision in any factor shall be unchallengeable and final.\n
+            10. Play will be judged on the basis of Acting, presentation, use of props, script,
+            creativity and Overall experience of the audience.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>
+            <b>Rules:</b>\n\n
+            1. Team may consist of 12-25 registered members (including all music accompanists).
+            Members may or may not be of the same college.\n
+            2. The Street Play prepared should be within the time limits of 15-20 min. The team must
+            perform a glimpse or trailer of the street play that they will perform in the  finals,
+            if shortlisted. It can be in English, Hindi or Both.\n
+            3. Director, music accompanists, actors, etc. all are considered a part of the team and
+            must be registered beforehand for event.\n
+            4. Street Play can be an original or an adaptation. In each case the abstract should be
+            submitted with the event coordinator before due date. Based on which the team shall be
+            shortlisted\n
+            5. A Team Leader should be appointed and mentioned in the abstract who would be
+            responsible for all communication with the coordinators.\n
+            6. Any props needed will have to be arranged by the team itself. The props should not be
+            explosive, flammable, permanent paints or volatile.\n
+            7. No physical interactions with the audience is permitted.\n
+            8. The play shall be judged by the Judges panel disclosed just before the event itself.\n
+            9. The judge\'s decision in any factor shall be unchallengeable and final.\n
+            10. Play will be judged on the basis of Acting, presentation, use of props, relevance of
+            topic, creativity and Overall experience of the audience.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1. Team may consist of 3-4 registered members. Members may or may not be of the same college.\n
+            2. The Act prepared should be within the time limits of 5-7 min.\n
+            3. Act can be in English, Hindi or Both.\n
+            4. All members of team must be registered beforehand and no external help shall be
+            entertained during the event.\n
+            5. Act can be an original or an adaptation.\n
+            6. A Team Leader should be appointed who would be responsible for all communication with
+            the coordinators.\n
+            7. Number of rounds may vary based on number of participating teams.\n
+            8. Any props needed will have to be arranged by the team itself in real time. The props
+            should not be explosive, flammable, permanent paints or volatile.\n
+            9. No physical interactions with the audience is permitted.\n
+            10. The Act shall be judged by the Judges panel disclosed just before the event itself.\n
+            11. The judge\'s decision in any factor shall be unchallengeable and final.\n
+            12. Play will be judged on the basis of Acting, presentation, use of props, script,
+            creativity and Overall experience of the audience.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>
+            <b>Rules:</b>\n\n
+            1. Team may consist of 2-15 registered members. Members may or may not be of the same college.\n
+            2. The Play prepared should be within the time limits of 20-35 min. 5-10 min of which
+            would be acted by the team for Preliminary round.\n
+            3. Play can be in English, Hindi or Both.\n
+            4. Director, stage helpers, actors, etc. all are considered a part of the team and must
+            be registered beforehand for event.\n
+            5. Play can be an original script or an adaptation. In each case the abstract should be
+            submitted with the event coordinator before due date. Based on which the teams shall be
+            shortlisted.\n
+            6. A Team Leader should be appointed and mentioned in the abstract who would be
+            responsible for all communication with the coordinators.\n
+            7. Any props needed will have to be arranged by the team itself. The props should not be
+            explosive, flammable, permanent paints or volatile.\n
+            8. No physical interactions with the audience is permitted.\n
+            9. The play shall be judged by the Judges panel disclosed just before the event itself.\n
+            10. The judge\'s decision in any factor shall be unchallengeable and final.\n
+            11. Play will be judged on the basis of Acting, presentation, use of props, script,
+            creativity and Overall experience of the audience.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+    </string-array>
+
+    <string-array name="drama_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="drama_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="drama_event_time">
+        <item> </item>
+        <item>11:10 AM</item>
+        <item>07:11 PM</item>
+        <item>4:15 AM</item>
+        <item>06:15 PM</item>
+    </string-array>
+
+    <string-array name="drama_contact1">
+        <item> </item>
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="drama_contact2">
+        <item> </item>
+       <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+    <!--  *********** Fine Arts Event Strings ************* -->
+    <string-array name="fine_arts_event_names">
+        <item>About</item>
+        <item>Quilling</item>
+        <item>Brushless Painting</item>
+        <item>Modern Art</item>
+        <item>Charcoal Sketching</item>
+        <item>T-Shirt Painting</item>
+        <item>Face Painting</item>
+    </string-array>
+
+    <string-array name="fine_arts_event_type">
+        <item> </item>
+        <item>EVENT 1</item>
+        <item>EVENT 2</item>
+        <item>EVENT 3</item>
+        <item>EVENT 4</item>
+        <item>EVENT 5</item>
+        <item>EVENT 6</item>
+    </string-array>
+
+    <string-array name="fine_arts_event_details">
+        <item>Time to bring out the artist in you! paint a picture. Fill up colours and bring it to
+            life, sketch fairy land and live your dream. Conjure a land of mysteries with your
+            intricate design, bring out the child in you and go crazy with colours, Fill your soul
+            with the million hues of joy of fantasy and ecstasy of love. Forget about everything.
+            Come here with us in ANUBHUTI and experience how it feels to dwell in a world of your own.
+        </item>
+        <item><b>Rules:</b>\n\n
+            1.	This is a team event. Each team will have 2 members.\n
+            2.	The event will be conducted in one round.\n
+            3.	The participants will be provided with A3 sheets, quilling paper strips and basic
+            quilling tools.\n
+            4.	Each team will make a 2D craftwork on the A3 sheet provided.\n
+            5.	Time Limit: 2 Hours
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1.	Individual event.\n
+            2.	The event will be conducted in one round.\n
+            3.	The participants will be provided colors, A3 sheets and other logistics at the site
+            of event.\n
+            4.	Time Limit: 2 Hours
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1.	Individual event.\n
+            2.	Theme will be given on the spot.\n
+            3.	There will be two rounds.\n
+            4.	In the preliminary round, each participant will be given an A3 sheet, colors and
+            other logistics.\n
+            5.	Top 5 participants of prelims reach final.\n
+            6.	Participants qualifying the prelims will participate in the final round in which
+            they will be given canvas, painting brushes and colors.\n
+            7.	Theme will be the same, the one which participant has chosen in prelims.\n
+            8.	Time Limit:\nPrelims: 2 Hours\nFinals: 3 Hours
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1.	Individual event.\n
+            2.	The event will be conducted in one round.\n
+            3.	Theme will be given on the spot.\n
+            4.	Participants will be provided with A3 sheets, charcoal pencils and other logistics
+            at the site of event.\n
+            5.	Time Limit: 2.5 Hours
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1.	This is a team event. Each team will have 2 members.\n
+            2.	Theme will be given on the spot.\n
+            3.	There will be two rounds.\n
+            4.	In the preliminary round, each team will be given an A3 sheet, colors and other logistics.\n
+            5.	Each team needs to make a design on a paper provided.\n
+            6.	Top 5 teams of prelims reach final.\n
+            7.	Team qualifying the prelims will participate in the final round in which they will
+            be given a white T-Shirt, colors, brushes and other logistics.\n
+            8.	Teams have to draw the design on the T-Shirt provided.\n
+            9.	Theme will be the same, the one which team has chosen in prelims.\n
+            10.	Time limit: Prelims: 1 Hours, Finals: 2 Hours
+        </item>
+
+        <item><b>Rules:</b>\n\n
+            1.	This is a team event. Each team will have 2 members. One member will paint on the
+            other’s member face.\n
+            2.	The event will be conducted in one round.\n
+            3.	Theme will be given on the spot.\n
+            4.	Stickers and any kind of make-up items are not allowed.\n
+            5.	All logistics shall be provided on the spot.\n
+            6.	Time Limit: 2 Hours
+        </item>
+    </string-array>
+
+    <string-array name="fine_arts_event_prize_amount">
+        <item> </item>
+        <item>\u20B95000</item>
+        <item>\u20B95000</item>
+        <item>\u20B95000</item>
+        <item>\u20B95000</item>
+    </string-array>
+
+    <string-array name="fine_arts_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="fine_arts_event_time">
+        <item> </item>
+        <item>11:10 AM</item>
+        <item>07:11 PM</item>
+        <item>4:15 AM</item>
+        <item>06:15 PM</item>
+    </string-array>
+
+    <string-array name="fine_arts_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="fine_arts_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+    <!--  *********** Photography Event Strings ************* -->
+
+    <string-array name="photography_event_names">
+        <item>About</item>
+        <item>Pic Mania</item>
+        <item>Picturesque</item>
+        <item>Graphic-o-Rama </item>
+        <item>Video Making</item>
+        <item>Pixel-Hunt</item>
+    </string-array>
+
+    <string-array name="photography_event_type">
+        <item> </item>
+        <item>Online Event</item>
+        <item>Online Event</item>
+        <item>GIF Making</item>
+        <item>Video Making</item>
+        <item>Clue Finding</item>
+    </string-array>
+
+    <string-array name="photography_event_details">
+        <item>Capture the light, capture the emotions, the shades of shadows, bliss of nature,
+            contrast it, brighten the imagination, click the innovation. A show off of skill of
+            camera; \'picture is worth a thousand words\', so let you clicks do the talking.
+        </item>
+        <item>Pic Mania is an online Theme-Based Photography event. This event provides a platform
+            to all the Shutter bugs out there to showcase their talent. The event is all about
+            creativity, perception and imagination. So take out your camera, escalate your
+            creativity and boost your imagination. Get…Set…Click!!!\nThemes will be provided on
+            the Facebook pages of Anubhuti and KNIT Photography. Time Duration will be 24 hrs.
+            The entries must be emailed along with the Participant’s Name, College Name and a
+            Caption.\n\n
+            <b>Judging Criterion:</b>\n
+            \u2022 The first and foremost criteria is the Resemblance to the given theme.\n
+            \u2022 The Quality of the picture.\n
+            \u2022 The picture will be uploaded on Facebook page.\n
+            \u2022 Based on the Number of Likes and Additional Points for vivid imagination and
+            creativity , the total scoring for an entry will be done.
+        </item>
+
+        <item>Picturesque is an online Photography-technique based event. Shutterbugs will be given
+            a type of photography technique using which the entry should be clicked. This event is
+            all about photographer’s knowledge and understanding about that particular technique.The
+            Type will be provided on the Facebook pages of Anubhuti and KNIT Photography.\n
+            Time Duration will be 24 hrs. The entries will be accepted on the given email-id.\n\n
+            <b>Judging Criterion:</b>\n
+            \u2022 The clicked picture should be based on the given Type of photography.\n
+            \u2022 Marks will be awarded on the Quality of the picture.\n
+            \u2022 The picture will be uploaded on Facebook page.\n
+            \u2022 Based on the Number of Likes and Additional Points for vivid imagination and
+            creativity, the total scoring for an entry will be done.
+        </item>
+
+        <item>\u2022 It is a GIF making event.\n
+            \u2022 The duration of the GIF should be maximum 10 seconds.\n
+            \u2022 It is a Team event comprising of 2 members.\n
+            \u2022 Teams will be given a Theme on which they have to make the GIF.\n
+            \u2022 Theme will be provided on the Facebook pages of Anubhuti and KNIT Photography.\n
+            \u2022 Entries will be entertained within 48 hrs after the commencement of the event.\n\n
+            <b>Judging Criterion:</b>\n
+            \u2022 Resemblance to the theme will be considered most important while grading.\n
+            \u2022 Quality of the GIF prepared must be decent.\n
+            \u2022 The points awarded will be based on the No. Of Likes.\n
+            \u2022 Creativity and Imagination is encouraged and will also be awarded.\n
+        </item>
+
+        <item>\u2022 It is a Team Event comprising of 2 Members.\n
+            \u2022 Each video will be Theme based.\n
+            \u2022 Theme will be provided on the Facebook pages of Anubhuti and KNIT Photography.\n
+            \u2022 The Duration of the video should be 2-3 min.\n
+            \u2022 Entries will be accepted within 3 days after the commencement of the event.\n\n
+            <b>Judging Criterion:</b>\n
+            \u2022 Resemblance to the theme will be an important factor.\n
+            \u2022 Quality of the video should be optimum.\n
+            \u2022 The video will be uploaded on Facebook. And based on the No. of Likes. The video
+            will be awarded points.\n
+            \u2022 Creativity and imagination will also have an equivalent weight on final judging.
+        </item>
+
+        <item>Well here comes the most exciting event. This event is a combination of both
+            deductions and photography. You will be required to solve clues in order to click. Teams
+            will be provided with 10 independent clues. Teams will be required to click a picture
+            for each solved clue. Pictures will be accepted on the given email-id. The event
+            duration will be of 3 hrs \n\n
+            <b>Judging Criterion:</b>\n
+            \u2022 Teams will be awarded points for each clue solved correctly.\n
+            \u2022 The number of members in a team should be at most 3.\n
+            \u2022 Extra marks for Quality of the picture.
+        </item>
+    </string-array>
+
+    <string-array name="photography_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="photography_event_date">
+        <item></item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="photography_event_time">
+        <item> </item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+    </string-array>
+
+    <string-array name="photography_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="photography_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+
+    <!--  *********** Quiz Event Strings ************* -->
+
+    <string-array name="quiz_event_names">
+        <item>About</item>
+        <item>Immix</item>
+        <item>Flame</item>
+        <item>Biz-Tech Quiz</item>
+        <item>General Quiz</item>
+    </string-array>
+
+    <string-array name="quiz_event_type">
+        <item> </item>
+        <item>General Quiz</item>
+        <item>MELA Quiz</item>
+        <item>Business Quiz</item>
+        <item>Online Quiz</item>
+    </string-array>
+
+    <string-array name="quiz_event_details">
+        <item>A puzzle a day keeps the dumbness away. Watched the Derek \'O\' Brien quiz as a kid, but
+            haven\'t put your quizzing hat for a long time. Now it\'s time to awaken the quizzer in
+            you and test yourself with a variety of quizzes. Arm yourselves with your facts and
+            battle it out to be crowned ‘the ultimate quizzer’.
+        </item>
+        <item>\u2022 This quiz will contain questions about anything present on the face of the earth.\n
+            \u2022 The quiz will contain two rounds a prelims and a final round.\n
+            \u2022 Participants will qualify on the basis on the written preliminary round.
+        </item>
+
+        <item>\u2022 This quiz wil contain questions on films literature music ,paintings …every
+            form of art and entertainment present out there.\n
+            \u2022 The quiz will contain two rounds  a prelims and a final round.\n
+            \u2022 Participants will qualify on the basis on the written preliminary round.
+        </item>
+
+        <item>\u2022 The quiz contain questions related to brands, companies and the whole business world\n
+            \u2022 The quiz will contain two rounds a prelims and a final round.\n
+            \u2022 Participants will qualify on the basis on the written preliminary round.
+        </item>
+
+        <item>\u2022 The quiz will be held on Dare2compete.com.\n
+            \u2022 The quiz will be of 30 mins.\n
+            \u2022 The quiz will contain 20 questions.\n
+        </item>
+    </string-array>
+
+    <string-array name="quiz_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="quiz_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="quiz_event_time">
+        <item> </item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+    </string-array>
+
+    <string-array name="quiz_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="quiz_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+    <!--  *********** Literature Event Strings ************* -->
+
+    <string-array name="literature_event_names">
+        <item>About</item>
+        <item>As you Like It</item>
+        <item>Clash of Clans</item>
+        <item>Dodge a tap</item>
+        <item>Estrofa</item>
+        <item>Quest for Antony</item>
+        <item>Aankho Dekhi</item>
+        <item>अन्योन्यम्</item>
+        <item>एको अहम् द्वितीयो नास्ति</item>
+        <item>काव्यांजलि</item>
+        <item>शंखनाद</item>
+        <item>वृन्द वाद</item>
+    </string-array>
+
+    <string-array name="literature_event_type">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Anyonyam</item>
+        <item>Eko Ahm Dwitiyo Nasti</item>
+        <item>Kavyanjali</item>
+        <item>Shankhnaad</item>
+        <item>Vrinda Vaad</item>
+    </string-array>
+
+    <string-array name="literature_event_details">
+        <item>Bang on ! Biggest war of words is here. Fathom your acumen, spontaneity and of course
+            concrete content, all that matters is your communication skills.
+        </item>
+        <item>A mashup of brainstorming thoughts which tickle your grey matter, we rightfully call
+            it, the speaker\’s \'As you like it.\' You need creativity of the mind and above all a
+            brave heart to handle some unconventional twists. If you think you can stand apart to
+            win this, the stage is all yours.\n\n
+            <b>Rules</b>\n\n
+            Preliminary Round:\n
+            \u2022 Individual based event.\n
+            \u2022 A topic is allotted to each contestant 40 seconds before speaking for preparation.\n
+            \u2022 Participants must speak for atleast 2 minutes and 30 seconds is appended for conclusion
+            to this time.\n
+            \u2022 Judging criteria include wit, delivery, and expression (and humor).\n
+            \u2022 The decision of the judges is final and cannot be challenged.\n\n
+            Final Round:\n
+            \u2022 Around 10 to 12 participants will be selected from preliminary round for this.\n
+            \u2022 All the rules of the preliminary round apply to the final round. Rest to be brought out
+            of the box directly on the event day.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>Ideas run wild without discussion so let\’s put them forth and discuss. Here is a
+            platform for you to do the same. Do not wait and watch rather come and speak and if you
+            can\’t add to the discussion then don\’t subtract by talking. If you see yourself as a
+            change and want others to listen and bring a change, then this is for you.\n\n
+            <b>Rules</b>\n\n
+            Preliminary Round:\n
+            \u2022 This is an individual event.\n
+            \u2022 Participants will be divided into groups of 6-6 participants each.\n
+            \u2022 There will be a topic given for discussion and the participants will have to discuss on
+            the same for 5 to 8 minutes.\n
+            \u2022 Negative marks will be given to a participant who exceeds the time limit given for
+            \u2022 presenting their view.\n
+            \u2022 Any kind of profanity will directly lead to elimination.\n
+            \u2022 Judges\’ decision will be final and cannot be challenged.\n\n
+            Final Round:\n
+            \u2022 Around 10 to 12 from the preliminary round will be selected for this.\n
+            \u2022 Further details will be revealed at the time of the event.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>
+            \"Speak clearly if you speak at all, Carve every word before you let it fall!!\"\nDo you
+            consider yourself concerned for English language? Are you confident enough to speak
+            grammatically correct English? So, here is your chance to unleash that talent of yours!!
+            Keep speaking for one minute and rack up the points. Spot the mistakes and snatch your
+            chance, after all, you have just a minute to win it!\n\n
+            <b>Rules:</b>\n
+            \u2022 This is an individual event.\n
+            \u2022 Speak for as long as you can (as directed by jam master).\n
+            \u2022 Spot the mistakes in other\’s speech.\n
+            \u2022 Never forget that JAM MASTER IS GOD.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>\"It matters not how strait the gate,\nHow charged with punishments the scroll,\nI am
+            the master of my fate:\nI am the captain of my soul.\"\nOf course! You all are, and now
+            it\’s your turn to pen down your emotions and experiences with your own poems and be your
+            own Wordsworth. You have a flash of insight, a metaphor for understanding change, a
+            parallel to existence or just an inside reflection on what is wrong/right with the
+            world. So let your ideas forge your feelings into a perspective and let your estrofa
+            personify your imaginations.\nBetween your finger and thumb squat pen rests; snug as a
+            gun. And as the Marvin Bell has said; \"You need nothing more to write poems than bits of
+            string and thread and some dust from under the bed\". Estrofa is a platform where you can
+            showcase your talent of writing and delivering your own poems. So it’s your turn to
+            amplify your talent.\n\n
+            <b>Rules:</b>\n
+            \u2022 Each participant will be provided 6 to 8 minutes for presenting and introducing
+            their piece or composition.\n
+            \u2022 The poem being presented should be one\’s own creation.\n
+            \u2022 Only individual participation is allowed. Mail your poem at
+            englishliterary@anbti.in.\n
+            \u2022 Shortlisted candidates will be notified via mail and have to present their poem
+            during the event.\n
+            \u2022 Participant may represent more than one poem on stage within the given time limit.\n
+            \u2022 The event is unilingual in nature: participants may represent their pieces in
+            English only.\n
+            \u2022 Plagiarism will not be tolerated and shall lead to disqualification. The poem
+            should not be copied from any source.\n
+            \u2022 Judging criteria include delivery, relevance to topic and uniqueness.\n
+            \u2022 Judge\’s (Judges’) decision shall be final and binding.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>When Antony climbed the stage, crowd was speaking against Ceaser, but before coming
+            down he made sure that Ceaser was being hailed as their saviour. The incident is a
+            perfect metaphor for the power an orator beholds in his words. So wake up the orator in
+            you, we\'ll give you the podium and you have to find your Ceaser. Move the crowd with
+            your words, present your skills and be the knight in the Quest for Antony.\n\n
+            <b>Rules:</b>\n
+            \u2022 This is an individual event.\n
+            \u2022 All the participating candidates will be assigned a character and a scenario
+            prior to the commencement of the fest via mail.\n
+            \u2022 Each speaker will have to prepare his speech based upon the scenario and the
+            character given and mail the same at <b>\"englishlit@anbti.in.\"</b>\n
+            \u2022 The matter in the speech should be your own creation.\n
+            \u2022 Shortlisted candidates will be notified via mail and have to deliver the same
+            speech during the event.\n
+            \u2022 Additional props (if required) can be used but no marks will be given for that.\n
+            \u2022 Speech can be of 4 to 5 minutes.\n
+            \u2022 Results of judges will be final and cannot be challenged.\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>Want to be a news reporter??? So, here is your chance… Literary council through
+            ANUBHUTI is giving you the platform to showcase this talent of yours…\n\n
+            <b>Rules:</b>\n\n
+            \u2022 This is a bilingual event.\n
+            \u2022 It requires a team of not more than 3 members.\n
+            \u2022 A participant can participate in only one language.\n
+            \u2022 Cover entire ANUBHUTI in a video of maximum 10 minutes (This video may include capturing
+            the events, reporting the events, interviews of different people and your own
+            innovations) and write a report (in Hindi or English) of not more than 300 words
+            describing ANUBHUTI.\n
+            \u2022 Mail this video and the report on 20th feb.’17 (by 3:00 P.M.) at
+            \"englishlit@anbti.in\" or at \"hindilit@anbti.in\".\n\n\n
+            <b>Event organizers:</b>\n
+            Name(Contact)\n
+            Name(Contact)
+        </item>
+
+        <item>इशारों-इशारों में नाम से प्रचलित डम्ब शराड्स की प्रतियोगिता अत्यंत मनोरंजक होती है। इस प्रतियोगिता के नियम कुछ ही समय
+            में उपलब्ध होंगे।\n\n\n
+            <b>किसी भी अन्य जानकारी के लिए संपर्क करें:-</b>\n\n
+            Name(Contact)\n
+            Name(Contact)
+            Mail: hindilit@anbti.in
+        </item>
+
+        <item>यह अशुभाषण की प्रतिस्पर्धा है, इस प्रतिस्पर्धा के अंतर्गत आपको दिए गए विषय पर अपने विचार व्यक्त करने होंगे। आप स्वतंत्र
+            होंगे विषय को किसी भी प्रकार से प्रस्तुत करने को जैसा कि प्रतिस्पर्धा का नाम है; किन्तु आपके वक्तव्य का प्रभावी होना अनिवार्य
+            है। दोनों ही चरणों में प्रतिभागियों को 200 सेकंड्स का समय दिया जाएगा; जिसका विभाजन निम्न प्रकार से होगा:-\n\n
+            \u2022 40 सेकंड्स विचार निर्माणद्ध\n
+            \u2022 120 सेकंड्स वक्तव्य व्याख्यानद्ध\n
+            \u2022 30 सेकंड्स निष्कर्ष ऩिरूपणद्ध\n
+            \u2022 अन्तिम 10 सेकंड्स चेतावनी काल के रूप में होंगे, जिसके पष्चात् ऋणात्मक अंकन प्रारम्भ हो जाएगा।\n\n
+            <b>प्रथम चरण:-</b>\n
+            \u2022 इस चरण में आपको दिए गए किसी विषय, पंक्ति, चित्र अथवा चलचित्र पर अपने विचार व्यक्त करने होंगे।\n
+            \u2022 चरण की संरचना उपर्युक्त लिखित होगी।\n
+            \u2022 प्रदर्शन के आधार पर १२ प्रतिभागियों का चयन अगले चरण के लिए होगा।\n\n
+            <b>अंतिम चरण:-</b>\n
+            \u2022 इस चरण के नियम आपको प्रतिस्पर्धा स्थल पर ही बताएं जायेंगे।\n\n\n
+            <b>किसी भी अन्य जानकारी के लिए संपर्क करें:-</b>\n\n
+           Name(Contact)\n
+            Name(Contact)
+            Mail: hindilit@anbti.in
+        </item>
+
+        <item>कविता करना खेल नहीं है, पूछो इन फनकारो से।\n
+            यह लोहे को काट रहे है, कागज की तलवारों से।।\n\n
+            नगमे को दानेश्वरी बनाना, और दानेश्वरी को नगमे में इस तरह ढाल देना की वो जिन्दगी से गुफ्तगू करने लगे, यह काफी मुश्किल
+            कार्य है। इस मुश्किल कार्य को बहुत ही सरलता से कर देना एक कवि की रचनात्मक शक्ति को दर्शाता हैं।\nकाव्यांजलि आपको एक
+            ऐसा मंच प्रदान करता है जो आपके अंदर छुपी रचनात्मक शक्ति से आपको एवं समस्त कविता प्रेमी श्रोतागणोंसे रूबरू करवाएगी। अतः
+            अपनी रचनात्मक शक्ति की अनुभूति हेतु इस प्रतियोगिता में भाग लें एवं अपने अंदर की भावनाओं को प्रकट करें।
+            काव्यांजलि एक काव्य प्रतियोगिता है जिसमे सभी प्रतिभागी अपनी स्वरचित कविता के माध्यम से अपनी भावनाएं व्यक्त कर सकते हैं।\n\n
+            <b>प्रतियोगिता के दो चरण हैं:-</b>\n\n
+            \u2022 प्रथम चरण में सभी प्रतिभागियों को अपनी स्वरचित कविता (कविताओं) की एक ऑडियो क्लिप भेजनी होगी जिसका समय
+            1 से 2 मिनट होना चाहिए। इसके साथ ही अपनी स्वरचित कविताओं को देवनागरी लिपि में (PDF फॉर्मेट)
+            <b>\"hindilit@anbti.in\"</b> पर भेजना होगा।\n
+            \u2022 अन्य किसी भी भाषा में कविता को स्वीकार नहीं किया जायेगा।\n
+            \u2022 प्रथम चरण में चयनित प्रतिभागियों को सूचित कर दिया जायेगा।\n
+            \u2022 प्रथम चरण में चयनित प्रतिभागियों को दूसरे चरण में निर्णायक मंडली के समक्ष मंच पर अपनी स्वरचित कविता ;कविताओंद्ध
+            का वाचन करना होगा।\n
+            \u2022 प्रतिभागी एक या एक से अधिक कविताओं का वाचन अपने काव्यपाठ में कर सकता हैं।\n
+            \u2022 काव्यपाठ की कुल समयावधि 6 - 7 मिनट तक ही होनी चाहिए।\n
+            \u2022 निर्णायक मंडली का निर्णय ही अंतिम एवं सर्वमान्य होगा।\n\n\n
+            <b>किसी भी अन्य जानकारी के लिए संपर्क करें:-</b>\n\n
+            Name(Contact)\n
+            Name(Contact)
+            Mail: hindilit@anbti.in
+        </item>
+
+        <item><b>\'र्माधर्म संग्राम\'</b>\n
+            विश्व के सर्ववृहद महाकाव्य महाभारत से प्रेरित यह प्रतिस्पर्धा हिंदी साहित्यिक कार्यक्रमों का विशेष आकर्षण होगी।
+            अधिक जानकारी के लिए स्टार प्लस द्वारा २०१३ में प्रसारित महाभारत देखें।\n\n\n
+            <b>किसी भी अन्य जानकारी के लिए संपर्क करें:-</b>\n\n
+            Name(Contact)\n
+            Name(Contact)
+            Mail: hindilit@anbti.in
+        </item>
+
+        <item>समूह चर्चा की यह प्रतिस्पर्धा अत्यंत रोचक व परस्पर संचारपूर्ण होती है। चयनित समूह को किसी दिए गए विषय पर आपस में
+            चर्चा करके एक उपयुक्त व सर्वमान्य निष्कर्ष पर आना होता है। प्रत्येक वक्ता दिए गए विषय के पक्ष में अथवा विपक्ष में अथवा उदासीन
+            रहते हुए अपने विचार रख सकता है।\n\n
+            <b>प्रथम चरण:-</b>\n
+            \u2022 इस चरण में भाग ले रहे समूह को दिए गए विषय पर ६० सेकंड्स विचार करने हेतु दिए जायेंगे तत्पश्चात क्रमशः प्रत्येक
+            सदस्य को ३० - ३० सेकंड्स में अपना परिचय देते हुए अपना दृष्टिकोण स्पष्ट करना होगा।\n\n
+            <b>अंतिम चरण:-</b>\n
+            \u2022 अंतिम चरण में चयनित प्रतिभागियों का पैनल बनाया जाएगा जोकि एक मध्यस्थाधिकारी के माध्यम से संचालित होगा।
+            बहुचर्चित टीवी समाचार चर्चाएँ इसी संरचना पर आधारित होती हैं।\n\n\n
+            <b>किसी भी अन्य जानकारी के लिए संपर्क करें:-</b>\n\n
+           Name(Contact)\n
+            Name(Contact)
+            Mail: hindilit@anbti.in
+        </item>
+    </string-array>
+
+    <string-array name="literature_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="literature_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="literature_event_time">
+        <item> </item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+    </string-array>
+
+    <string-array name="literary_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="literary_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+    <!--  *********** Informal Event Strings ************* -->
+
+    <string-array name="informal_event_names">
+        <item>About</item>
+        <item>Vichy Code</item>
+        <item>Couple Cricket</item>
+        <item>Live Counter</item>
+        <item>Triplet Race</item>
+        <item>Tug of War</item>
+        <item>Archery</item>
+        <item>G.O.T. Quiz</item>
+        <item>Blind Date</item>
+        <item>Musical Chairs</item>
+    </string-array>
+
+    <string-array name="informal_event_type">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="informal_event_details">
+        <item>Get to win prizes in random fun games, Full of entartainment.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+        <item>Rules Will be updated soon.</item>
+    </string-array>
+
+    <string-array name="informal_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="informal_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="informal_event_time">
+        <item> </item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+    </string-array>
+
+    <string-array name="informal_contact1">
+        <item>Contac name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="informal_contact2">
+        <item>Contac name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+
+    <!--  *********** LAN Event Strings ************* -->
+
+    <string-array name="lan_event_names">
+        <item>About</item>
+        <item>Counter Strike</item>
+        <item>NFS Most Wanted</item>
+        <item>Mini Militia</item>
+    </string-array>
+
+    <string-array name="lan_event_type">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="lan_event_details">
+        <item>Enjoy various LAN games at Anubhuti. Compete with others to win exciting prizes and
+            goodies.
+        </item>
+        <item>\u2022 \u20B9100 for girls’ team for all years.\n
+            \u2022 \u20B9250 for Ist year teams (KNIT and REC).\n
+            \u2022 \u20B950 each for rest of years.\n
+            \u2022 \u20B9500 for teams registering in Anubhuti.\n
+            \u2022 \u20B91200 for teams not registered for Anubhuti.\n\n
+            <b>Prizes:</b>\n
+            Merchandise and goodies worth 8000 for winner and Ist runner up.
+        </item>
+        <item><b>Entry</b> fees\n
+            \u2022 \u20B950 per participants for boys.\n
+            \u2022 \u20B920 per participants for girls.\n\n
+            Exciting prizes and goodies.
+        </item>
+        <item><b>Rules and regulation’s</b> \n\n
+            \u2022 Each team must consist of 5 players.\n
+            \u2022 Players will have to arrange mobile phones for themselves.\n
+            \u2022 A single version of the game will be provided to all the players.\n
+            \u2022 Maps available are - “subdivision”,  “catacomb”, “bottle neck” and “no escape”.\n\n
+            <b>Entry fees</b>\n
+            \u2022 \u20B9150 per team for boys.\n
+            \u2022 \u20B980 per team for girls.\n
+            \u2022 Exciting prizes for winners.
+        </item>
+    </string-array>
+
+    <string-array name="lan_event_prize_amount">
+        <item> </item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+        <item>\u20B90</item>
+    </string-array>
+
+    <string-array name="lan_event_date">
+        <item> </item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+        <item>Feb 17, 2016</item>
+    </string-array>
+
+    <string-array name="lan_event_time">
+        <item> </item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+        <item>00:00 AM</item>
+    </string-array>
+
+    <string-array name="lan_contact1">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="lan_contact2">
+        <item>Contact name</item>
+        <item>0123456789</item>
+    </string-array>
+
+
+
+
+    <!-- Facebook Login -->
+    <string name="title_activity_login">Log in</string>
+    <string name="logout">Log out</string>
+    <string name="facebook_app_id">Your FB App ID</string>
+    <string name="fb_login_protocol_scheme">Your ID</string>
+    <string name="fb_profile_name_hint">Name</string>
+    <string name="fb_profile_email_hint">E-mail address</string>
+    <string name="title_activity_student_reg">Registration</string>
+
+    <!--  Student Registration-->
+    <string name="name_hint">Name</string>
+    <string name="email_hint">E-mail</string>
+    <string name="contact_hint">Contact No.</string>
+    <string name="college_hint">College</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="academic_year_title">Year</string>
+    <string name="academic_year_first">First Year</string>
+    <string name="academic_year_second">Second Year</string>
+    <string name="academic_year_third">Third Year</string>
+    <string name="academic_year_final">Final Year</string>
+    <string name="button_submit">Submit</string>
+    <string name="title_activity_event_registration">Register Events</string>
+
+    <!--  Event Registration  -->
+    <string name="selectAll">  Select All</string>
+
+
+    <!--    Shirley Setia    -->
+    <string name="shirley_name">Shirley Setia</string>
+    <string name="shirley_tag">The tiny one with not so tiny dreams&#8230;</string>
+    <string name="shirley_concert">Live Concert</string>
+    <string name="shirley_anubhuti_title">Anubhuti \'17</string>
+    <string name="shirley_venue">KNIT Sultanpur</string>
+    <string name="shirley_date">Feb 19, 2017</string>
+
+</resources>

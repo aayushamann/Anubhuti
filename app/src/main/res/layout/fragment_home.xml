@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.anbti.anubhuti.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/timer_background"
+                android:orientation="vertical">
+
+                <!--<ImageView-->
+                <!--android:id="@+id/activity_cardinal_logo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:contentDescription="@string/content_description"-->
+                <!--android:paddingBottom="@dimen/twenty_dp"-->
+                <!--android:paddingLeft="@dimen/fifteen_dp"-->
+                <!--android:paddingRight="@dimen/fifteen_dp"-->
+                <!--android:paddingTop="@dimen/twenty_dp"-->
+                <!--android:src="@drawable/img_cardinal_logo" /> -->
+
+                <LinearLayout
+                    android:id="@+id/activity_countdown_wheels_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/fifteen_dp"
+                    android:paddingRight="@dimen/fifteen_dp"
+                    android:paddingTop="@dimen/twenty_dp">
+
+                    <com.todddavies.components.progressbar.ProgressWheel
+                        android:id="@+id/activity_countdown_timer_days"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        ProgressWheel:pwBarColor="@color/colorGold"
+                        ProgressWheel:pwBarWidth="@dimen/six_dp"
+                        ProgressWheel:pwRimColor="@color/rim_color_gray"
+                        ProgressWheel:pwRimWidth="@dimen/one_dp"
+                        ProgressWheel:pwTextColor="@color/colorGold"
+                        ProgressWheel:pwTextSize="@dimen/twenty_four_sp" />
+
+                    <com.todddavies.components.progressbar.ProgressWheel
+                        android:id="@+id/activity_countdown_timer_hours"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        ProgressWheel:pwBarColor="@color/colorGold"
+                        ProgressWheel:pwBarWidth="@dimen/six_dp"
+                        ProgressWheel:pwRimColor="@color/rim_color_gray"
+                        ProgressWheel:pwRimWidth="@dimen/one_dp"
+                        ProgressWheel:pwTextColor="@color/colorGold"
+                        ProgressWheel:pwTextSize="@dimen/twenty_four_sp" />
+
+                    <com.todddavies.components.progressbar.ProgressWheel
+                        android:id="@+id/activity_countdown_timer_minutes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        ProgressWheel:pwBarColor="@color/colorGold"
+                        ProgressWheel:pwBarWidth="@dimen/six_dp"
+                        ProgressWheel:pwRimColor="@color/rim_color_gray"
+                        ProgressWheel:pwRimWidth="@dimen/one_dp"
+                        ProgressWheel:pwTextColor="@color/colorGold"
+                        ProgressWheel:pwTextSize="@dimen/twenty_four_sp" />
+
+                    <com.todddavies.components.progressbar.ProgressWheel
+                        android:id="@+id/activity_countdown_timer_seconds"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        ProgressWheel:pwBarColor="@color/colorGold"
+                        ProgressWheel:pwBarWidth="@dimen/six_dp"
+                        ProgressWheel:pwRimColor="@color/rim_color_gray"
+                        ProgressWheel:pwRimWidth="@dimen/one_dp"
+                        ProgressWheel:pwTextColor="@color/colorGold"
+                        ProgressWheel:pwTextSize="@dimen/twenty_four_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/activity_countdown_labels_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/fifteen_dp"
+                    android:paddingRight="@dimen/fifteen_dp">
+
+                    <TextView
+                        android:id="@+id/activity_countdown_timer_days_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        android:text="@string/days"
+                        android:textColor="@color/rim_color_gray"
+                        android:textSize="@dimen/twenty_sp" />
+
+                    <TextView
+                        android:id="@+id/activity_countdown_timer_hours_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        android:text="@string/hours"
+                        android:textColor="@color/rim_color_gray"
+                        android:textSize="@dimen/twenty_sp" />
+
+                    <TextView
+                        android:id="@+id/activity_countdown_timer_minutes_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        android:text="@string/minutes"
+                        android:textColor="@color/rim_color_gray"
+                        android:textSize="@dimen/twenty_sp" />
+
+                    <TextView
+                        android:id="@+id/activity_countdown_timer_seconds_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:tag="Thin"
+                        android:text="@string/seconds"
+                        android:textColor="@color/rim_color_gray"
+                        android:textSize="@dimen/twenty_sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ss_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/shirley_concert"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/shirley_anubhuti_title"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/shirley_name"
+                        android:textColor="@color/white"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/shirley_tag"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:text="@string/shirley_date"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="@string/shirley_venue"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider1"
+                android:layout_width="fill_parent"
+                android:layout_height="192dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp" />
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider2"
+                android:layout_width="fill_parent"
+                android:layout_height="192dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
